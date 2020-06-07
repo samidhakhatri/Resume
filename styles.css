@@ -1,6 +1,6 @@
 /*********************************************CSS Property for elements*****************************************/
 body{
-  margin: 0px;
+  margin: 0;
 }
 
 
@@ -202,4 +202,19 @@ div.navbar-right .icon-container {
 .profile-row-right{
   text-align: left;
   padding-left: 70px;
+}
+
+@media screen and (max-width: 500px) {
+  #header-img{
+    height: 400px;
+  }
+
+  #heading{
+    margin-left: 15%;
+    margin-right: 10%;
+    top: 150px;
+  }
+  div.navbar-right{
+    visibility: hidden;
+  }
 }
